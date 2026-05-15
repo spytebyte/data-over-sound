@@ -20,12 +20,12 @@ pip install numpy scipy sounddevice
 
 ### 1. One-Way Communication
 
-**Sender** (`audio_sender.py`):
+**Sender** (`Audio Sender.py`):
 - Type a message
 - Plays it as audio tones
 - Use for testing
 
-**Receiver** (`audio_receiver.py`):
+**Receiver** (`Audio Receiver.py`):
 - Listens for incoming tones
 - Decodes and displays the message
 - Use for testing
@@ -33,24 +33,24 @@ pip install numpy scipy sounddevice
 **How to use:**
 ```bash
 # Terminal 1
-python audio_receiver.py
+python Audio Receiver.py
 # Choose [L]isten, enter 10 seconds
 
 # Terminal 2 (while receiver is listening!)
-python audio_sender.py
+python Audio Sender.py
 # Type "HELLO" and press Enter
 ```
 
 ### 2. Two-Way Chat
 
-**Real-Time** (`audio_chat.py`)
+**Real-Time** (`audio-chat.py`)
 - Both can send anytime
 - Messages appear automatically
 
 **How to use:**
 ```bash
 # Both people run:
-python audio_chat.py
+python audio-chat.py
 
 # Just type messages and press Enter
 # No need to coordinate turns
