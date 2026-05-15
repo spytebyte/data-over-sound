@@ -43,25 +43,9 @@ python audio_sender.py
 
 ### 2. Two-Way Chat
 
-**Turn-Based** (`audio_chat_turnbased.py`) - **RECOMMENDED**
-- One person sends, the other receives
-- Then switch roles
-- Simple and reliable
-
-**How to use:**
-```bash
-# Both people run:
-python audio_chat_turnbased.py
-
-# Person A: [S]end "Hey!"
-# Person B: [R]eceive (start listening FIRST!)
-# Switch and repeat
-```
-
-**Real-Time** (`audio_chat.py`) - **ADVANCED**
+**Real-Time** (`audio_chat.py`)
 - Both can send anytime
 - Messages appear automatically
-- More complex
 
 **How to use:**
 ```bash
